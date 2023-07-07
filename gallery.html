@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Фотогалерея</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+    <header id="header" class="header">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link phone-form" href="#">СВЯЗАТЬСЯ СО МНОЙ</span></a>
+                    </li>
+                    <li class="nav-item active">
+                            <a class="nav-link" href="about.html">ОБО МНЕ</span></a>
+                        </li>
+                    <li class="nav-item active">
+                        <a class="nav-link font-weight-bold" href="teacher.html">ФОТОГАЛЕРЕЯ</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </header><!-- /header -->
+
+    <div class="liblary m-3">
+        <div class="container">
+            <div class="card-columns m-auto" id="gallery-liblary"></div>
+        </div>
+    </div>
+
+    <div class="modal fade center-block" id="image-modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg center-block">
+        <div class="modal-content center-block">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="modal-body text-center">
+            <img class="img-responsive w-50 center-block" src="" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+
+</html>

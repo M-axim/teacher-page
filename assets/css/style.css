@@ -1,0 +1,156 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: rgb(247,247,247);
+}
+
+.flex-full {
+	flex: 1 1 auto;
+}
+
+footer {
+	flex: 0 0 auto;
+}
+
+.bg-dark {
+	background-color: rgb(85,85,85) !important;
+}
+
+.white {
+	background-color: rgb(255,255,255);
+}
+
+.header,
+.navbar,
+.footer {
+	background-color: rgb(66,66,66) !important;
+}
+
+.social-link {
+	display: inline-block;
+	margin-right: 10px !important;
+	width: 20px;
+}
+
+.social-icon {
+	width: 100%;
+}
+
+.about-intro {
+	height: 320px;
+}
+
+.col-line {
+	width: 4px;
+    background: aqua;
+    position: absolute !important;
+    height: 100%;
+    right: 15px;
+    z-index: 1;
+}
+
+.h-100vw {
+	height: 100vh;
+}
+
+.card-progress .progress {
+	height: 10px;
+}
+
+.about-title {
+	font-size: 1.5rem;
+}
+
+.about-subtitle {
+	font-size: 1rem;
+}
+
+.col-line__ball {
+	right: 50%;
+	transform: translateX(50%);
+	top: 15px;
+	width: 20px;
+	height: 20px;
+	display: block;
+    background: blue;
+}
+
+.experience-card_reversed {
+	margin-right: 0;
+}
+
+.my-photo {
+    width: 170px;
+    border: solid;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 579px) {
+
+	.about__body {
+		padding-top: 4rem;
+	}
+
+	.about-intro {
+		height: 250px;
+	}
+
+	.col-line {
+	    position: relative !important;
+	    height: auto !important;
+	    right: auto !important;
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.about-title {
+		font-size: 2.5rem;
+	}
+
+	.about-subtitle {
+		font-size: 2rem;
+	}
+
+	.experience-card_reversed {
+		margin-right: -4px;
+	}
+
+	.about__body {
+		padding-top: 10rem;
+	}
+
+	.my-photo {
+	    width: 210px;
+	    border: solid;
+	}
+}
+
+.nav-link {
+	color: rgb(255, 255, 255) !important;
+}
+
+.mw-600 {
+	max-width: 600px;
+}
+
+.mw-800 {
+	max-width: 800px;
+}
+
+.phone-icon {
+	height: 50px;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
