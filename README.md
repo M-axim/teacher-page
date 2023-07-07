@@ -15,7 +15,7 @@
 * [Фотография страницы "Галерея"](https://disk.yandex.ru/i/-YvxfHpLY2KdzQ)
 * [Фотография страницы "Главная"](https://disk.yandex.ru/i/UUuS-gWr5e8x-w)
 * [Фотография блока "Связаться со мной"](https://disk.yandex.ru/i/t_Mns6PMhBLdtQ)
-* [Фотография страницы "Родителям"](https://disk.yandex.ru/i/8OKCe-D-jewDLQ
+* [Фотография страницы "Родителям"](https://disk.yandex.ru/i/8OKCe-D-jewDLQ)
 * [Фотография страницы "Учителям"](https://disk.yandex.ru/i/gl2KpUM0antlTQ)
 ## Отображение сайта на планшетах
 * [Фотография страницы "Обо мне"](https://disk.yandex.ru/i/Oqx4Y6LGsEVOQQ)
